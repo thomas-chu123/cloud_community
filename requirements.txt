@@ -1,0 +1,6 @@
+docker
+fastapi
+psutil
+uvicorn
+cryptography
+speedtest
