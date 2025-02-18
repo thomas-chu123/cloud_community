@@ -159,7 +159,7 @@ function install_kvm() {
       --os-variant ubuntu22.04 \
       --network network=default \
       --graphics vnc,listen=0.0.0.0 --noautoconsole \
-      --cloud-init user-data=user-data.yaml,meta-data=meta-data.yaml,network-config=network-config.yaml \
+      --cloud-init user-data=../kvm/user-data.yaml,meta-data=../kvm/meta-data.yaml,network-config=../kvm/network-config.yaml \
       --noautoconsole --noreboot --import"
 
     # Loop through the PCI addresses and add --host-device for each
